@@ -1,0 +1,14 @@
+# 重いファイル・生成物は無視する設定
+bin/
+dist/
+build/
+__pycache__/
+*.spec
+*.exe
+*.zip
+
+# 個人情報が含まれるファイルも無視
+settings.json
+history.json
+logs/
+cache/
